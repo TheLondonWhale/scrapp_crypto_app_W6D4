@@ -1,0 +1,15 @@
+<h1 class="center">Cherche la valeur de la crypto de ton choix</h1>
+<p></p>
+
+<%= form_for :CryptoCurrency do |f| %>
+<div class="">
+
+</div>
+  <div class="field">
+    <%= f.label "Liste des Crypto" %>
+      <%= f.collection_select :id, CryptoCurrency.all.order('id ASC'), :id, :name%>
+  </div>
+  <div class="actions">
+    <%= f.submit "Submit" %>
+  </div>
+<% end %>
