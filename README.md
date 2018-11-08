@@ -1,24 +1,36 @@
-# README
+# LA SECRET PAGE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+L'objectif de ce projet était de réaliser une petite appli qui va scrapper les données de https://coinmarketcap.com et de pouvoir donner la veleur d'une crypto monnaie via un formulaire.
 
-Things you may want to cover:
 
-* Ruby version
+## Version finale
 
-* System dependencies
+Tu trouveras l'application finale en cliquant sur le lien suivant : https://crypto-currencies-scrapp.herokuapp.com/
 
-* Configuration
+⚠️ <strong> Attention, ça pique les yeux, le front est dégueu.</strong> ⚠️
 
-* Database creation
 
-* Database initialization
+## Pour utiliser l'appli
 
-* How to run the test suite
+Si tu tiens absolument à cloner le projet, je t'invite, suite au clonage, à rentrer dans le dossier via la commande :
+```
+cd scrapp_crypto_app_W6D4
+```
+Puis tape :
+```
+bundle install
+```
+Puis :
+```
+rails db:create
+```
+Et enfin :
+```
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Auteurs ‍
 
-* Deployment instructions
+Ce projet a été réalisé en pair-programming avec Félix Perez.
 
-* ...
+#TeamLille #Welsh #Bieres
